@@ -1,0 +1,120 @@
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  z-index: 99999999;
+  top: 0;
+  background: rgb(19, 18, 18);
+  color: rgb(23, 66, 207);
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+a.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.alcm__Header--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.alcm__Nav--wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.alcm__Header--wrapper {
+  padding: 0 20px;
+}
+.alcm__Nav--wrapper li {
+  list-style: none;
+  color: rgb(99, 13, 13);
+}
+
+.alcm__NavSide--logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* sidebar  */
+
+.alcm__NabSide--wrapper {
+  background-color: #ffff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  z-index: 999999999;
+  /* border-right: 1px solid silver; */
+}
+.alcm__NabSide--wrapper li a span {
+  color: #fff;
+}
+.alcm__NabSide--active {
+  left: 0;
+}
+
+.alcm__Nav--wrapper li {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.alcm__Account {
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 23px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.alcm__Account--wrapper {
+  padding: 8px 20px;
+}
+
+.alcm__Header--wrapper .alcm__Bar--Icon {
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+/* bar  */
+.alcm__Mobile-Bar--Icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* sidebar popup */
+.alcm__NavSide-Mobile--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+ul.alcm__NavSide-Mobile--wrapper li {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /* background-color: silver; */
+  margin: 0.5rem;
+}
+
+.alcm__NavSide-Mobile--wrapper li:hover {
+  background-color: rgb(222 222 222);
+}
+.alcm__Bg--dark {
+  width: 100%;
+  background: #443e3e70;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+ul.alcm__NavSide-Mobile--wrapper li a span {
+  color: rgb(13, 62, 226) !important;
+}
